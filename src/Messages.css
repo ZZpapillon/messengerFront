@@ -1,0 +1,98 @@
+.messageRow {
+    display: flex;
+    justify-content: flex-end;
+  
+    /* Align user's messages to the right */
+    margin-bottom: 10px;
+    width: 100%;
+    
+   
+}
+
+.messageRow .messageBubble {
+    background-color: #DCF8C6;
+    /* Light green for user's messages */
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 25vw;
+    min-width: 3vw;
+}
+
+.receivedMessageRow {
+    display: flex;
+    justify-content: flex-start;
+    /* Align received messages to the left */
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.receivedMessageRow .messageBubble {
+    background-color: #FFFFFF;
+    /* White for received messages */
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 25vw;
+    min-width: 3vw;
+}
+
+.messageBubble {
+    position: relative;
+    background-color: #DCF8C6;
+    /* Example background color */
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.timestamp {
+    font-size: 0.6rem;
+    margin-top: auto;
+    /* Pushes timestamp to bottom */
+    margin-left: auto;
+    /* Pushes timestamp to right */
+}
+
+
+.friendHeader img  {
+    position: relative;
+  
+  left: 20%;
+}
+.friendHeader h2 {
+    position: relative;
+    left: 1%;
+}
+
+@media (max-width: 1000px) {
+    .friendHeader h2 {
+        
+        left: 5%;
+    }
+}
+
+/* For screen widths between 768px and 576px */
+@media (max-width: 768px) {
+    .friendHeader h2 {
+        
+        /* Decrease font size */
+        left: 10%;
+        /* Reset left position */
+    }
+    .custom-input {
+        width: 80%!important;
+    }
+}
+
+/* For screen widths between 576px and 500px */
+@media (max-width: 576px) {
+    .friendHeader h2 {
+      
+        /* Decrease font size */
+        left: 20%;
+        /* Reset left position */
+    }
+}

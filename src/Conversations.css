@@ -1,0 +1,198 @@
+.usernameHeader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #09090b;
+    color: white;
+    /* optional: to make text white */
+    padding: 10px;
+    /* optional: add padding */
+    border-bottom: 1px solid white;
+    
+}
+
+.conversations {
+    display: flex;
+    flex-direction: row;
+    place-content: flex-start;
+    
+    overflow-y: auto!important;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #09090b;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.message-item {
+
+    height: 10vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.text-truncate {
+width: 10vw;
+    /* Example fixed width */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+}
+
+.text-right {
+    font-size: small;
+    position: relative!important;
+    top: 0!important;
+    right: 1.2vw!important;
+}
+
+.selected {
+    background-color: #313131;
+    /* Change this to the desired background color */
+}
+
+
+
+.friends-modal {
+    height: 50vh!important;
+    
+    overflow: hidden;
+    position: absolute!important;
+   
+    top: 3.1vh!important;
+}
+
+
+ .usernameHeader h4 {
+     
+     position: relative;
+     left: 2%;
+     /* Adjust the font size as desired */
+ }
+
+@media (max-width: 1580px) {
+    .message-item h3 {
+        font-size: 1.2rem !important;
+        /* Decrease font size for screens up to 1580px */
+    }
+
+    .message-item img {
+        width: 55px !important;
+        /* Decrease width for screens up to 1580px */
+        height: 55px !important;
+        /* Decrease height for screens up to 1580px */
+    }
+
+    .text-right {
+        font-size: 0.85rem !important;
+        /* Decrease font size for screens up to 1580px */
+    }
+}
+
+@media (max-width: 1400px) {
+    .message-item h3 {
+        font-size: 1.1rem !important;
+        /* Decrease font size for screens up to 1400px */
+    }
+
+    .message-item img {
+        width: 50px !important;
+        /* Decrease width for screens up to 1400px */
+        height: 50px !important;
+        /* Decrease height for screens up to 1400px */
+    }
+
+    .text-right {
+        font-size: 0.5rem !important;
+        /* Decrease font size for screens up to 1400px */
+    }
+}
+
+@media (max-width: 1200px) {
+    .message-item h3 {
+        font-size: 1rem !important;
+        /* Decrease font size for screens up to 1200px */
+    }
+
+    .message-item img {
+        width: 45px !important;
+        /* Decrease width for screens up to 1200px */
+        height: 45px !important;
+        /* Decrease height for screens up to 1200px */
+    }
+   .usernameHeader h4 {
+       font-size: 1rem;
+       position: relative;
+       left: 10%;
+       /* Adjust the font size as desired */
+   } 
+    
+}
+
+@media (max-width: 992px) {
+    .message-item h3 {
+        font-size: 0.9rem !important;
+        /* Decrease font size for screens up to 992px */
+    }
+
+    .message-item img {
+        width: 40px !important;
+        /* Decrease width for screens up to 992px */
+        height: 40px !important;
+        /* Decrease height for screens up to 992px */
+    }
+         .text-right {
+             font-size: 0.5rem !important;
+             display: none!important;
+             /* Decrease font size for screens up to 1400px */
+         }
+   
+}
+
+@media (max-width: 768px) {
+    .message-item h3 {
+        font-size: 0.4rem !important;
+        margin: 0;
+        /* Decrease font size for screens up to 768px */
+    }
+
+    .message-item img {
+        width: 40px !important;
+        /* Decrease width for screens up to 768px */
+        height: 40px !important;
+       
+        /* Decrease height for screens up to 768px */
+    }
+        .text-truncate {
+           display: none!important;
+        }
+          .usernameHeader h4 {
+              font-size: 0.5rem;
+              position: relative;
+              left: 10%;
+              /* Adjust the font size as desired */
+          }
+ 
+}
+
+@media (max-width: 576px) {
+    .message-item h3 {
+        font-size: 0.3rem !important;
+        /* Decrease font size for screens up to 576px */
+    }
+
+    .message-item img {
+        width: 30px !important;
+        /* Decrease width for screens up to 576px */
+        height: 30px !important;
+        /* Decrease height for screens up to 576px */
+    }
+
+  
+
+    .text-truncate {
+        font-size: 0.7rem !important;
+        /* Limit width for screens up to 576px */
+    }
+}
