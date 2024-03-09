@@ -167,7 +167,7 @@ const updateAvatarURL = async () => {
             <label htmlFor="avatar-upload" className="custom-avatar-label">
               
   <Image
-    src={"https://messengernode.onrender.com/" + userInfo.avatar}
+    src={userInfo.avatar}
     alt="User Avatar"
     className="custom-user-image"
     roundedCircle

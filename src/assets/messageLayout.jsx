@@ -108,7 +108,7 @@ const fetchMessages = async () => {
    
    <Row className="friendHeader text-white p-1 align-items-center" style={{ height: '6vh', padding: 0}}  onClick={handleShowProfileModal} >
       <Col  className="ms-0" xs={1} >
-        <Image src={"https://messengernode.onrender.com/" + selectedFriend.avatar} roundedCircle style={{ width: '50px', height: '50px', padding: "0" }} />
+        <Image src={selectedFriend.avatar} roundedCircle style={{ width: '50px', height: '50px', padding: "0" }} />
       </Col>
       <Col>
         <h2>{selectedFriend.firstName} {selectedFriend.lastName} </h2>
@@ -121,7 +121,7 @@ const fetchMessages = async () => {
   </Modal.Header>
   <Modal.Body className="custom-modal-body custom-modal-content">
     <div className="custom-user-info">
-      <Image src={"https://messengernode.onrender.com/" + selectedFriend.avatar} alt="User Avatar" className="custom-user-image" roundedCircle />
+      <Image src={selectedFriend.avatar} alt="User Avatar" className="custom-user-image" roundedCircle />
       <h5>
         {selectedFriend.firstName} {selectedFriend.lastName}
       </h5>

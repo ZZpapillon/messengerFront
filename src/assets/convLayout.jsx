@@ -108,7 +108,7 @@ function ConversationLayout({ onSelectFriend }) {
           <Container key={index} className={"message-item text-white" + (selectedMessage === index ? " selected" : "")} onClick={() => handleItemClick(index)}>
             <Row>
               <Col xs={1}>
-                <Image src={"https://messengernode.onrender.com/" + friend.avatar} roundedCircle style={{ width: '60px', height: '60px' }} />
+                <Image src={friend.avatar} roundedCircle style={{ width: '60px', height: '60px' }} />
               </Col>
               <Col>
                 <h3 className='ms-5'>{friend.firstName} {friend.lastName}</h3>
