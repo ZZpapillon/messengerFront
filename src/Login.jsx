@@ -51,7 +51,7 @@ function App() {
         userId,
         firstName,
         lastName,
-        avatar: 'uploads/avatars/placeholderImage.png',
+         avatar: 'https://res.cloudinary.com/duvnbonci/image/upload/messenger/qlvebe3n99mxfrsbyczf',
         bio: 'Change bio clicking on it!',
       };
 
