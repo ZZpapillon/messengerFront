@@ -96,7 +96,7 @@ function ConversationLayout({ onSelectFriend }) {
     <Container style={{ height: '100vh', display: 'flex', flexDirection: 'column' }}>
       <Row className="usernameHeader">
         <Col xs={1}>
-          <Image src={userInfo ? "https://messengernode.onrender.com/" + userInfo.avatar : "/placeholderImage.png"} roundedCircle style={{ width: '40px', height: '40px' }} />
+          <Image src={userInfo ?  userInfo.avatar : "/placeholderImage.png"} roundedCircle style={{ width: '40px', height: '40px' }} />
         </Col>
         <Col className='ms-3 mt-1'>
           <h4>{userInfo && userInfo.firstName}'s Messages</h4>
