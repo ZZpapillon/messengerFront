@@ -5,7 +5,7 @@ This project serves as the frontend for a simplified messenger application, offe
 
 ## Live Demo
 
-Check out the live demo here: [Live Website](https://messengerzz.netlify.app/) (Note: clicking will navigate away from this page)
+Check out the live demo here: [Live Website](https://stalwart-crostata-5ad996.netlify.app/) (Note: clicking will navigate away from this page)
 
 ## Backend Code Repo
 
@@ -20,6 +20,7 @@ Watch a video walkthrough of the Messenger here: [YouTube Video](https://youtu.b
 - **User Profiles**:  Customize your profile with a picture, bio, and more.
 - **Messaging**: Send and receive messages with ease, keeping your conversations organized.
 - **Add Friends**: Add users to start conversations with!
+- **Demo Account**: Feature allows quick access and testing, no registration needed.
 
 ## Technologies Used
 - React.js
