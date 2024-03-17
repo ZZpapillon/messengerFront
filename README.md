@@ -21,7 +21,7 @@ Watch a video walkthrough of the Messenger here: [YouTube Video](https://youtu.b
 - **Messaging**: Send and receive messages with ease, keeping your conversations organized.
 - **Add Friends**: Add users to start conversations with!
 
-
+## Technologies Used
 - React.js
 - Bootstrap
 ## Getting Started
